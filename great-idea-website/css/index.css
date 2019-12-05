@@ -95,6 +95,11 @@ nav ul li {
   line-height: 100%;
 }
 
+.top-image {
+	text-align: right; 
+	vertical-align: middle;
+}
+
 .logo {
 	text-align: right;
 	vertical-align: middle; 
