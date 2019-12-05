@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -64,3 +65,87 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.all {
+	margin: 0 92px 0 92px;
+}. /*This doesnt work because images dont change size but the positioning is not terrible.*/
+
+nav {
+  width: 900px;
+}
+
+nav ul {
+  text-align: justify;
+/*  line-height: ;  I cant get this to effect anything*/
+/*  margin: 0;*/
+  margin-bottom: 60px;  /*Moving Ball Down A Smidge*/
+  padding: 20px;  /*Just taking the edge in a little from the p below*/
+}
+
+nav ul:after {  /*The after is used to stretch the content to take up 100% width.
+	This works because text-align: justify ensures that all lines are the same length. 
+	The :after style being set to display: inline-block with width: 100% creates
+	a full-width child element within the nav for justify to match the length of. */
+  content: '';  /*This all creates a psuedoelement I guess that can be a problem unless it can be display:none;*/
+  display: inline-block;
+  width: 100%;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 100%;
+}
+
+.logo {
+	text-align: right;
+	vertical-align: middle; 
+	margin-top: 30px;
+}
+
+.top .title {
+	height: 350px;
+	display:inline-block;
+}
+
+.top img {
+	display:inline-block;
+	float: right;
+}
+
+h1 {
+	font-size:80px;
+	text-align: center;
+}
+
+h1 .button {
+	font-size: 30px;
+}
+
+.middle-text {
+	display:inline-block;
+	width: 48%;
+	margin-bottom: 25px;
+}
+
+.middle-box {
+	border-top: 1px solid black;
+	margin-top: 100px;
+}
+
+.bottom-box {
+	border-bottom: 1px solid black;
+	/*margin-bottom: 100px;*/
+}
+
+.bottom-text {
+	display:inline-block;
+	width: 33%;
+	margin-bottom: 25px;
+}
+
+h2 {
+	margin-top: 25px;
+}
+
+footer {
+	text-align: center;
+}

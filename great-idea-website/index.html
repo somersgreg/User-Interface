@@ -1,63 +1,86 @@
 <!doctype html>
-
 <html lang="en">
+
+<div class="all">
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <title>Great Idea!</title>
+    <title>Great Idea!</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
 
-  <!--[if lt IE 9]>
+    <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
 
-  <body>
+<body>
 
-  Services
-  Product
-  Vision
-  Features
-  About
-  Contact
-
-  <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
-  Innovation
-  On
-  Demand
-
-  Get Started
-
-  <img src="img/header-img.png" alt="Image of a code snippet.">
-
-  Features
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
-
-
-  About
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
-
-  <img class="middle-img" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen">
-  
-  Services
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+<!-- The Nav Bar -->
+<div>
+    <nav>
+    	<ul>
+        <li>Services</li>
+        <li>Product</li> 
+        <li>Vision</li> 
+        <li>Features</li> 
+        <li>About</li> 
+        <li>Contact</li>
+<!-- Ok this sucks.  Not expanding like I expected. -->
+    	<li style="text-align: right" style="vertical-align: middle"><img style="margin-top: 30px" src="img/logo.png" alt="Great Idea! Company logo."> </li>
+<!-- With margin top i can move everything down but how to move one thing Up?? -->
+<!-- Have to fix that in img line... -->
+    	</ul>
+    </nav>	
+</div>
 
 
-  Product
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
 
-  Vision
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+<section class="top">
+	<div class="title">
+    	<h1> Innovation <br> On <br> Demand  <br>
+    	<button class="button">Get Started</button></h1>
+    </div>
+    <img src="img/header-img.png" alt="Image of a code snippet.">			
+</section>
 
-  Contact
-  123 Way 456 Street
-  Somewhere, USA
-  1 (888) 888-8888
-  sales@greatidea.io
+<section class="middle-box">
+	<div class="middle-text">
+    	<h2>Features</h2>
+    		<p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p> 
+    </div>
+    <div class="middle-text">
+    	<h2>About</h2>
+    		<p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+	</div>
+</section>
 
-  Copyright Great Idea! 2018
-  
-  </body>
+    <img class="middle-img" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen">
+
+<section class="bottom-box">
+	<div class="bottom-text">
+    	<h2>Services</h2>
+    		<p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+    	</div>
+    <div class="bottom-text">
+    	<h2>Product</h2>
+    		<p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+    	</div>
+    <div class="bottom-text">
+    	<h2>Vision</h2>
+    		<p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>
+	</div>
+</section>
+    <address>
+    	<h2>Contact</h2>
+    	123 Way 456 Street<br>
+    	Somewhere, USA 1<br><br>
+    	(888) 888-8888<br><br>
+    	sales@greatidea.io <br><br><br>
+    </address>
+    <footer><br><br>Copyright Great Idea! 2018
+    </footer>
+</body>
+</div> <!-- class all -->
 </html>
