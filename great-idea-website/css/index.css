@@ -69,12 +69,18 @@ h1, h2, h3, h4, h5 {
 nav {
     width: 900px;
 }
+.sticky {
+    position: fixed;
+}
+#navbar{
+	background-color: blueviolet;
+}
 
 nav ul {
     text-align: justify;
 /*  line-height: ;  I cant get this to effect anything*/
 /*  margin: 0;*/
-    margin-bottom: 60px;  /*Moving Ball Down A Smidge*/
+/* margin-bottom: 40px; */
     padding: 20px;  /*Just taking the edge in a little from the p below*/
 }
 
@@ -91,7 +97,9 @@ nav ul li {
     display: inline-block;
     line-height: 100%;
 }
-
+.hidden {
+	visibility: hidden;
+}
 .top-image {
 	text-align: right; 
 	vertical-align: middle;
